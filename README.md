@@ -2,6 +2,10 @@
 
 将一个javascript function 通过 conectDecorator 方法，让这个function与其它的方法相链接，使其它方法可以操作被链接的对象，达到装饰者模式的效果。
 
+```
+npm i conect-decorator --save
+```
+
 _下面是例子（存在js小数点问题，不是讨论重点）_
 
 ```js
