@@ -1,10 +1,3 @@
-# conect-decorator
-
-将一个javascript function 通过 conectDecorator 方法，让这个function与其它的方法相链接，使其它方法可以操作被链接的对象，达到装饰者模式的效果。
-
-_下面是例子（存在js小数点问题，不是讨论重点）_
-
-```js
 const conectDecorator = require('../dist');
 
 // 添加税
@@ -55,5 +48,3 @@ console.log(moneyB1.getPrice()) // 17.23
 var moneyB2 = new MoneyB(150); // 150 CNY
 moneyB2.getPrice = conectDecorator(MoneyB.prototype.getPrice,  toEuroDecorator);
 console.log(moneyB2.getPrice()); // 21.00
-```
-

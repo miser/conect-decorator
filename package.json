@@ -1,0 +1,25 @@
+{
+  "name": "conect-decorator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miser/conect-decorator.git"
+  },
+  "author": "miser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miser/conect-decorator/issues"
+  },
+  "homepage": "https://github.com/miser/conect-decorator#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
